@@ -132,6 +132,7 @@
                     <dt>Talk to someone you trust if you're feeling down</dt>
                     <dt>Clean your hands properly</dt>
                     <dt>Have regular check-ups</dt>
+                    <dt>Have regular check-ups</dt>
                     Visit here to get more health tips.
                     <a href="https://www.who.int/philippines/news/feature-stories/detail/20-health-tips-for-2020" target="_blank"> World Health Organisation</a>
                 </div>
