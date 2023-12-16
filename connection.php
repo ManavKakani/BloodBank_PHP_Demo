@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
+$servername = "34.68.176.151";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "bloodbank";
 $conn = new mysqli($servername, $username, $password, $dbname);
 if(!$conn){
