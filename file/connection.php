@@ -1,5 +1,5 @@
 <?php
-$servername = "mysql";  // Use the service name defined in your docker-compose.yml
+$servername = "db";  // Use the service name defined in your docker-compose.yml
 $username = "root";
 $password = "root";
 $dbname = "bloodbank";
