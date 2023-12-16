@@ -1,10 +1,12 @@
 <?php
-$servername = "localhost";
+$servername = "mysql";  // Use the service name defined in your docker-compose.yml
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "bloodbank";
 $conn = new mysqli($servername, $username, $password, $dbname);
-if(!$conn){
- die('Could not Connect MySql:' .mysql_error());
+
+// Check the connection
+if ($conn->connect_error) {
+    die('Could not connect to MySQL: ' . $conn->connect_error);
 }
 ?>
